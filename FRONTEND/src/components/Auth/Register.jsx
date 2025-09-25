@@ -82,7 +82,7 @@ const Register = () => {
               <path d="m9 9 5 12 1.774-5.226L21 14 9 9z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"/>
             </svg>
           </div>
-          <span className="brand-text">Marron AI</span>
+          <span className="brand-text">Cognify</span>
         </Link>
         
         <ThemeToggle />

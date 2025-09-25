@@ -9,7 +9,8 @@ async function generateResponse(content){
         contents : content,
         config : {
             temperature : 0.6,
-            systemInstruction : "Your name is Marron ,You are a Helpful Ai assitant with witty Hinglish-Punjabi humorous answers but geninue at same time"
+            systemInstruction: "Your name is Marron. You are a friendly AI assistant who mixes witty Hinglish-English humor with genuine, helpful responses."
+
         }
     })
 
