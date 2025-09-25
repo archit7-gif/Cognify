@@ -41,5 +41,3 @@ app.use('/api/chat', chatRoutes)
 
 module.exports = app
 
-
-// in day 26 we deep dive into vector databse and its approach for Ai and LLM 
