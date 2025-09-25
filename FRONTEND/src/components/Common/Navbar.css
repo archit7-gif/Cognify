@@ -1,0 +1,131 @@
+
+
+.main-navbar {
+  height: 60px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: var(--theme-transition);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle-btn:hover {
+  background: var(--bg-tertiary);
+}
+
+.sidebar-toggle-btn:active {
+  transform: scale(0.95);
+}
+
+/* Brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: var(--theme-transition);
+}
+
+.navbar-brand:hover {
+  color: var(--accent-color);
+}
+
+.brand-icon {
+  color: var(--accent-color);
+}
+
+.brand-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Chat Title Display */
+.chat-title-display h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .main-navbar {
+    padding: 0 16px;
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .navbar-center {
+    flex: 1;
+  }
+
+  .chat-title-display h2 {
+    font-size: 14px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-navbar {
+    padding: 0 12px;
+  }
+
+  .navbar-left {
+    gap: 12px;
+  }
+
+  .chat-title-display h2 {
+    font-size: 13px;
+    max-width: 150px;
+  }
+}
