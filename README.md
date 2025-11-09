@@ -3,7 +3,7 @@
 
 **Cognify** is a full-stack, real-time chat application built with the **MERN stack**, integrating **Google Gemini** and **Pinecone** to deliver intelligent, context-aware conversations. It features a persistent AI memory system that allows the bot to recall past interactions — making conversations feel more natural, human-like, and continuous.  
 
-🔗 **Live App:** [Cognify](#)
+🔗 **Live Link :** [Cognify](https://cognify-taupe.vercel.app)
 
 ---
 
